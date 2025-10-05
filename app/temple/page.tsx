@@ -13,7 +13,7 @@ type Templat = {
 };
 // メンバー情報
 const templat_list: Templat[] = [
-  { id:1,title: "サンプル01", category: "ヘルスケア",url:"/temple/sample01", image: "/img/home_hero.png", createdAt: "2023-01-01", updatedAt: "2023-01-01" },
+  { id:1,title: "サンプル01", category: "ヘルスケア",url:"/temple/sample01", image: "https://i.gyazo.com/748ca33a08237bae94582edc48e6e23d.png", createdAt: "2023-01-01", updatedAt: "2023-01-01" },
   { id:2,title: "サンプル02", category: "金融", image: "", createdAt: "2023-01-02", updatedAt: "2023-01-02" },
   { id:3,title: "サンプル03", category: "スポーツ", image: "", createdAt: "2023-01-03", updatedAt: "2023-01-03" },
   { id:4,title: "サンプル04", category: "建築", image: "", createdAt: "2023-01-04", updatedAt: "2023-01-04" },
