@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "メディカル系コーポレートページ",
+        "category": "メディカル",
+        "url": "/temple/sample01",
+        "image": "https://i.gyazo.com/748ca33a08237bae94582edc48e6e23d.png",
+        "createdAt": "2025/08/14 10:30",
+        "updatedAt": "2025/10/05 10:30"
+    },
+    {
+        "id": 2,
+        "title": "建築系コーポレートページ",
+        "category": "建築",
+        "url": "/temple/sample02",
+        "image": "https://i.gyazo.com/8dc5acfdf74b576dc1f91bd58a65854d.png",
+        "createdAt": "2025/10/05 10:30",
+        "updatedAt": "2025/10/05 10:30"
+    }
+]

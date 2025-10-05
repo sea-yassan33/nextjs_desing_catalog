@@ -21,10 +21,16 @@ npx shadcn@latest add
 
 ## 日付フォーマット用ライブラリ
 npm install date-fns
+
+## React Icons
+npm install react-icons
+
+## スイパー
+npm install swiper
 ```
 
 ## 参考
 - [Tailwind CSS チートシート](https://nerdcave.com/tailwind-cheat-sheet)
 - [Flowbite Blocks](https://flowbite.com/blocks/)
-- [アイコン一覧](https://icones.js.org/)
+- [アイコン一覧](https://iconyoes.js.org/)
 - [shadcn/ui](https://ui.shadcn.com/)

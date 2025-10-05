@@ -1,27 +1,18 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import Link from "next/link";
-// 型定義
-type Templat = {
-  id: number;
-  title: string;
-  category?: string;
-  url?: string;
-  image?: string;
-  createdAt: string;
-  updatedAt: string;
+import { TemplateRow } from "@/lib/interfaceUtils";
+import templat_list_data from "@/public/data/temp_list.json";
+import type { Metadata } from "next";
+
+// メタデータ設定
+export const metadata: Metadata = {
+  title: "NDC|テンプレート一覧",
+  description: "デザインカタログ|テンプレートリストのページです。",
 };
-// メンバー情報
-const templat_list: Templat[] = [
-  { id:1,title: "サンプル01", category: "ヘルスケア",url:"/temple/sample01", image: "https://i.gyazo.com/748ca33a08237bae94582edc48e6e23d.png", createdAt: "2023-01-01", updatedAt: "2023-01-01" },
-  { id:2,title: "サンプル02", category: "金融", image: "", createdAt: "2023-01-02", updatedAt: "2023-01-02" },
-  { id:3,title: "サンプル03", category: "スポーツ", image: "", createdAt: "2023-01-03", updatedAt: "2023-01-03" },
-  { id:4,title: "サンプル04", category: "建築", image: "", createdAt: "2023-01-04", updatedAt: "2023-01-04" },
-  { id:5,title: "サンプル05", category: "マーケット", image: "", createdAt: "2023-01-05", updatedAt: "2023-01-05" },
-  { id:6,title: "サンプル06", category: "その他", image: "", createdAt: "2023-01-06", updatedAt: "2023-01-06" },
-  { id:7,title: "サンプル07", category: "その他", image: "", createdAt: "2023-01-07", updatedAt: "2023-01-07" },
-  { id:8,title: "サンプル08", category: "スポーツ", image: "", createdAt: "2023-01-08", updatedAt: "2023-01-08" },
-];
+// テンプレートリスト一覧作成
+const templat_list: TemplateRow[] = templat_list_data;
+// メインコンポーネント
 export default function TemplePage() {
   return (
     <main>

@@ -1,11 +1,20 @@
 import Image from "next/image";
 import Link from 'next/link';
 import { tv } from 'tailwind-variants';
-import { cn } from "@/lib/utils";
-import { NewsSection } from "@/components/sample01/news";
-import { AboutSection } from "@/components/sample01/about";
-import { AccessSection } from "@/components/sample01/access";
-
+import { NewsSection } from "@/components/Temple/sample01/news";
+import { AboutSection } from "@/components/Temple/sample01/about";
+import { AccessSection } from "@/components/Temple/sample01/access";
+import type { Metadata } from "next";
+import { GithubRepoUrl } from "@/components/Parts/git_repo_url";
+import urlConfig from "@/config/propaties";
+// メタデータ設定
+export const metadata: Metadata = {
+  title: "NDC|サンプル01",
+  description: "デザインカタログ|メディカル系のコーポレートページです。",
+};
+// gitHubリポジトリURL
+const sampleno = '01';
+const gitHubRepoUrl = `${urlConfig.githubUrl}temple/sample${sampleno}/page.tsx`;
 export default function Sample01() {
   const twStayles = tv({
     variants: {
@@ -182,6 +191,9 @@ export default function Sample01() {
       <NewsSection />
       <AboutSection />
       <AccessSection />
+      {gitHubRepoUrl ?
+      <GithubRepoUrl gitRepo={{ url: gitHubRepoUrl }} />
+      : null}
     </main>
   );
 }
