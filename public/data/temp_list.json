@@ -16,5 +16,14 @@
         "image": "https://i.gyazo.com/8dc5acfdf74b576dc1f91bd58a65854d.png",
         "createdAt": "2025/10/05 10:30",
         "updatedAt": "2025/10/05 10:30"
+    },
+    {
+        "id": 3,
+        "title": "ホテル系コーポレートページ",
+        "category": "娯楽施設",
+        "url": "/temple/sample03",
+        "image": "https://i.gyazo.com/77fafac950a1f1025b9b66ed067016b7.png",
+        "createdAt": "2025/10/11 10:00",
+        "updatedAt": "2025/10/11 10:00"
     }
 ]
