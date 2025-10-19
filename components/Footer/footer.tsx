@@ -13,7 +13,7 @@ const footerLinks = {
     title: "サービス",
     links: [
       { label: "テンプレート", href: "/temple" },
-      { label: "パーツ", href: "#" },
+      { label: "パーツ", href: "/parts" },
     ]
   },
   support: {
@@ -21,6 +21,7 @@ const footerLinks = {
     links: [
       { label: "tailwindcssチートシート", href: "https://nerdcave.com/tailwind-cheat-sheet" },
       { label: "ブロック", href: "https://flowbite.com/blocks/" },
+      { label: "ブロック(フレーム)", href: "https://tailblocks.cc/" },
       { label: "アイコン", href: "https://icones.js.org/" },
       { label: "アイコン(Ract)", href: "https://react-icons.github.io/react-icons/" },
       { label: "shadcn/ui", href: "https://ui.shadcn.com/" },

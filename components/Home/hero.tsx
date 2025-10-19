@@ -22,7 +22,7 @@ export default function HeroSection() {
               </Link>
             </li>
             <li className="flex items-center gap-2">
-              <Link href="#">
+              <Link href="/parts">
                 <Button className="bg-sky-200 hover:bg-sky-500 text-blak hover:text-amber-100 text-base px-6 py-5 rounded-xl shadow-md">
                   パーツコンポーネントを見る
                 </Button>

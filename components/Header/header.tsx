@@ -9,7 +9,7 @@ import Image from "next/image";
 const headerLinks = [
   { label: "ホーム", href: "/" },
   { label: "テンプレート", href: "/temple" },
-  { label: "パーツ", href: "#" },
+  { label: "パーツ", href: "/parts" },
 ];
 export default function Header() {
     const twStayles = tv({
