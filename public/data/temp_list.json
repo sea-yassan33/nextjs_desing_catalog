@@ -34,5 +34,14 @@
         "image": "https://i.gyazo.com/1aabc5b84aaadadf57aecd58c9c32a27.png",
         "createdAt": "2025/10/13 10:00",
         "updatedAt": "2025/10/13 10:00"
+    },
+    {
+        "id": 5,
+        "title": "ダッシュボードページ",
+        "category": "共通",
+        "url": "/temple/sample05",
+        "image": "https://i.gyazo.com/c76325ca9c76e45b2d964324d6c5e496.png",
+        "createdAt": "2025/12/31 10:00",
+        "updatedAt": "2025/12/31 10:00"
     }
 ]

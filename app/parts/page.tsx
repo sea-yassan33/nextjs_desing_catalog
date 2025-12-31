@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { GithubRepoUrl } from "@/components/Parts/git_repo_url";
-import urlConfig from "@/config/propaties";
+//import urlConfig from "@/config/propaties";
 import PartsPageCardSec from "@/components/Parts/page/card_block";
 // メタデータ設定
 export const metadata: Metadata = {

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { GithubRepoUrl } from "@/components/Parts/git_repo_url";
-import urlConfig from "@/config/propaties";
+//import urlConfig from "@/config/propaties";
 import Sample03Head from "@/components/Temple/sample03/Head";
 import Sample03Hearo from "@/components/Temple/sample03/Hearo";
 import Sample03PlanList from "@/components/Temple/sample03/PlanList";

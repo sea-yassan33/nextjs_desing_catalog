@@ -1,6 +1,4 @@
 import Image from "next/image";
-import sample_json from "@/public/data/sample04.json";
-
 interface Article {
   id: number;
   title: string;
